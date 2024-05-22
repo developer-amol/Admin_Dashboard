@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+    .bg-white {
+      width: 240px; /* Adjust as needed */
+    }
+  }
+  @keyframes progressBarAnimation {
+    0% { width: 0; }
+    100% { width: 75%; }
+  }
+  
+  .progress-bar {
+    animation: progressBarAnimation 1s ease-out forwards;
+  }
+  
